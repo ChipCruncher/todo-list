@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="todo-style.css">
+    <script src="todo-script.js"></script>
+</head>
+<body>
+    <section>
+    <h1>To Do List</h1>
+    <br>
+    <input placeholder="Enter a task here">
+    <br>
+    <br>
+    <div class="commandDiv">
+    <label><span style="letter-spacing: 3px;">COMMAND POD</span></label>
+    <br>
+    <p><em>Enter '/urgent'</em></p>
+    <br>
+    <input style="padding-top: 0px" id="urgentInput" placeholder="Enter your command">
+    </div>
+    </section>
+    <br>
+    <button onclick="takeInputToList()">SUBMIT</button>
+    <br>
+    </div>
+    <br>
+    <div class="listContainer">
+    <h2>Urgent List</h2>
+    <br>
+    <div id="list"></div>
+    <br>
+    <h2>Not Urgent List</h2>
+    <br>
+    <div id="notUrgent"></div>
+    </div>
+    <div class="countDiv">
+        <h2>Your Count:</h2>
+        <div id="totalCount"><strong>0</strong></div>
+        <br>
+        <h2>Your Urgent Tasks:</h2>
+        <div id="urgCount"><strong>0</strong></div>
+        <br>
+        <h2>Your Optional Tasks</h2>
+        <div id="optCount"><strong>0</strong></div>
+    </div>
+</body>
+</html>

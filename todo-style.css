@@ -1,0 +1,44 @@
+body {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    background: linear-gradient(rgb(159, 159, 255), rgb(255, 133, 133), rgb(80, 49, 80))
+}
+
+#list, #notUrgent {
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.countDiv {
+    border: solid white 10px;
+    padding: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-top: 20px;
+}
+
+.commandDiv {
+    border: solid white 10px;
+    padding: 10px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+input {
+    border-radius: 20px;
+    width: 200px;
+    font-weight: 100;
+    background-color: black;
+    color: white;
+}
+
+button {
+    width: 150px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px;
+}
